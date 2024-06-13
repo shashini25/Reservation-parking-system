@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Home Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+
+h1{
+
+}
+ .container,
+  .img{text-align: center;}
+  
+  .container {
+   
+    margin: auto;
+}
+  
+  .button {
+  background-color: #4dd8eb;
+  border: none;
+  color: white;
+  padding: 4px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+        
+</style>
+</head>
+
+<body>
+<header>
+
+
+<div class = "container">
+	<div>
+	
+		<div class="w3-display-center w3-container w3-padding-16 w3-black w3-center w3-animate-left w3-large">
+		
+		
+ <img src="C:\Users\hansi\Downloads\PARKING\Source\Images\logo1.jpg" width="50" height="50" class="left">
+
+	<h1>WELCOME<h1>
+	
+		
+		  </div>			
+	</div>
+ </div>
+ 					
+
+  <div class="w3-content w3-section w3-right-align w3-display-topright w3-container"> <style="max-width:1000px">
+   <div class="log-sign" style="--i: 1.8s">
+					<img src="C:\Users\hansi\Downloads\PARKING\Source\Images\logo.png" width="50" height="50" class="right"> 
+                   
+					
+					<a href="file:///C:/Users/hansi/Downloads/Login/loggggin.html" class="button"><p class="w3-hover-text-red">Log In</p></a>
+					<a href="#" class="button"><p class="w3-hover-text-red">Sign Up</p></a>
+                    
+                </div>
+            </div>
+ 
+  <img class="mySlides" src="C:\Users\hansi\Downloads\PARKING\Source\Images\carpark.jpg" style="width:100%" >
+  <img class="mySlides" src="C:\Users\hansi\Downloads\PARKING\Source\Images\carpark1.jpg" style="width:100%">
+  <img class="mySlides" src="C:\Users\hansi\Downloads\PARKING\Source\Images\carpark2.jpg" style="width:100%">
+</div
+
+
+              
+
+
+</header>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
