@@ -1,0 +1,1 @@
+The Reservation Parking System is a web-based application developed in PHP and MySQL that allows users to reserve parking spaces online. The system provides an efficient way to manage parking slots, reducing congestion and ensuring availability for registered users.
